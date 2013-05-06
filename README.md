@@ -9,7 +9,8 @@ puts game.board
 
 - 81 cells
 - 9 Rows, 9 Columns
-- 9 Boxes
+- 9 Boxes --> this is a feature of the board
+
 
 #A cell is made of:
 - Unique Combination of Row# and Column# ~ R1-9 + C1-9
@@ -24,5 +25,11 @@ puts game.board
 #Game setting:
 - Numbers fixed to a specific cell, given by the Game
 
-#Objective:
+#Player:
 - Solve the Sudoku puzzle by giving each cell a number in order that each Box, Row and Column has a series of number from 1-9
+
+- Select a number between 1-9 to go in each cell so that the 9 cells in each Row, Column and Box only has one instance of the numbers between 1-9
+
+#find_most_common_number
+#missing_number(cell)
+#solve_cell(number)
